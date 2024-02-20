@@ -22,7 +22,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Spirals",
   description:
-    "Generate beautiful AI spiral art with one click. Powered by Vercel and Replicate.",
+    "Welcome To My World!",
   metadataBase: new URL("https://spirals.vercel.app"),
 };
 
