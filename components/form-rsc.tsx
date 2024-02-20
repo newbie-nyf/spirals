@@ -36,25 +36,7 @@ export default function FormRSC({
         className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 [text-wrap:balance] md:text-xl"
         style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
       >
-        Generate beautiful AI spiral art with one click. Powered by{" "}
-        <a
-          className="text-black underline-offset-4 hover:underline"
-          href="https://vercel.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vercel
-        </a>{" "}
-        and{" "}
-        <a
-          className="text-black underline-offset-4 hover:underline"
-          href="https://replicate.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Replicate
-        </a>
-        .
+        Welcome To My World!
       </p>
       <Form promptValue={prompt} patternValue={pattern} />
       <Suspense fallback={<CountDisplay />}>
